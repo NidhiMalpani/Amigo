@@ -8,15 +8,15 @@ Amigo is a voice based service itself, with an additional feature of having faci
 # Flow of the project
 1. Run "bot.py" file
 &nbsp; You would see the main page with 2 options : 
-a. New User
-b. Authenticate
+<br />a. New User
+<br />b. Authenticate
 
 ![image](https://user-images.githubusercontent.com/88290216/170872651-b4a97145-a008-486f-9752-5271daa26a82.png)
 
 2. Since we're using the program for the first time, click on "New User"
 &nbsp; You would see two options:
-a. Take Samples
-b. Model Training
+<br />a. Take Samples
+<br />b. Model Training
 
 ![image](https://user-images.githubusercontent.com/88290216/170872904-ef62c6a2-c1d2-47f8-82ee-ef9f590204c5.png)
 
@@ -29,14 +29,14 @@ b. Model Training
 ![image](https://user-images.githubusercontent.com/88290216/170872676-ca84b3af-aa48-4d97-9966-c4e28963657e.png)
 
 8. Click on "Speak" and try out commands like
-&nbsp; a. Open camera
-&nbsp; b. Open Spotify
-&nbsp; c. Open Notepad
-&nbsp; d. Open Calculator
-&nbsp; e. Search something on wikipedia
-&nbsp; f. Open Google
-&nbsp; g. Open Youtube
-&nbsp; h. Play music, etc
+&nbsp; <br />a. Open camera
+&nbsp; <br />b. Open Spotify
+&nbsp; <br />c. Open Notepad
+&nbsp; <br />d. Open Calculator
+&nbsp; <br />e. Search something on wikipedia
+&nbsp; <br />f. Open Google
+&nbsp; <br />g. Open Youtube
+&nbsp; <br />h. Play music, etc
 
 Here, the bot would play music according to the emotion you have, so you would get a different playlist for each mood the program recognises you in.
 
