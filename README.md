@@ -1,8 +1,53 @@
 ## Amigo
 A bot that talks and listens to you, and works through your emotions
 
+# Problem statement, and why this bot?
+A lot of people in today's world have to live alone and have no one to talk to. Also, with the current advance in technology voice-based services like Alexa have become very popular.
+Amigo is a voice based service itself, with an additional feature of having facial recognition security, perform certain simple tasks and being able to play songs based on the mood the person is in, just like a friend (hence the name Amigo, which means friend in Spanish).
+
 # Flow of the project
 1. Run "bot.py" file
-<br> you 
+&nbsp; You would see the main page with 2 options : 
+a. New User
+b. Authenticate
 
 ![image](https://user-images.githubusercontent.com/88290216/170872651-b4a97145-a008-486f-9752-5271daa26a82.png)
+
+2. Since we're using the program for the first time, click on "New User"
+&nbsp; You would see two options:
+a. Take Samples
+b. Model Training
+
+![image](https://user-images.githubusercontent.com/88290216/170872904-ef62c6a2-c1d2-47f8-82ee-ef9f590204c5.png)
+
+3. Click on "Take Samples" button. It would open a camera, recognise and take pictures of your face
+4. Click on "Model Training" next. It would train the model so that the program recognises your face when you try to authenticate.
+5. Once the program says "Model training successful", click on the "Back" button. You would see the main page again
+6. Now click on "Authenticate" button. Make sure your face is in front of the camera so that it can recognise it. It also recognises the emotion on your face.
+7. After the authentication is successful, you would see the main command-execution window.
+
+![image](https://user-images.githubusercontent.com/88290216/170872676-ca84b3af-aa48-4d97-9966-c4e28963657e.png)
+
+8. Click on "Speak" and try out commands like
+&nbsp; a. Open camera
+&nbsp; b. Open Spotify
+&nbsp; c. Open Notepad
+&nbsp; d. Open Calculator
+&nbsp; e. Search something on wikipedia
+&nbsp; f. Open Google
+&nbsp; g. Open Youtube
+&nbsp; h. Play music, etc
+
+Here, the bot would play music according to the emotion you have, so you would get a different playlist for each mood the program recognises you in.
+
+# Libraries installed
+* pyttsx3
+* SpeechRecognition
+* pyaudio
+* opencv-python
+* wikipedia
+* pyinstaller
+* tensorflow
+* deepface
+* tkinter
+
