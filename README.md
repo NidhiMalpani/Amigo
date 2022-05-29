@@ -1,11 +1,11 @@
-## Amigo
+# Amigo
 A bot that talks and listens to you, and works through your emotions
 
-# Problem statement, and why this bot?
+## Problem statement, and why this bot?
 A lot of people in today's world have to live alone and have no one to talk to. Also, with the current advance in technology voice-based services like Alexa have become very popular.
 Amigo is a voice based service itself, with an additional feature of having facial recognition security, perform certain simple tasks and being able to play songs based on the mood the person is in, just like a friend (hence the name Amigo, which means friend in Spanish).
 
-# Flow of the project
+## Flow of the project
 1. Run "bot.py" file
 &nbsp; You would see the main page with 2 options : 
 <br />a. New User
@@ -39,8 +39,44 @@ Amigo is a voice based service itself, with an additional feature of having faci
 &nbsp; <br />h. Play music, etc
 
 Here, the bot would play music according to the emotion you have, so you would get a different playlist for each mood the program recognises you in.
+<br />
+Additionally, all the details of the command-execution conversation is dynamically displayed as "logs" in the console of your IDE (VS Code in my case).
+One instance of the console:<br />
+Collecting samples. Please face the camera...
+Samples collected successfully.
+Model training in progress...
+Model training successful.
 
-# Libraries installed
+1/1 [==============================] - ETA: 0s
+1/1 [==============================] - 0s 149ms/step
+Face recognition performed successfully.
+Good Evening, Nidhi
+How may I help you?
+Say something...
+Analyzing...
+User:  open camera
+[ WARN:0@110.600] global D:\a\opencv-python\opencv-python\opencv\modules\videoio\src\cap_msmf.cpp (539) `anonymous-namespace'::SourceReaderCB::~SourceReaderCB terminating async callback
+Say something...
+Analyzing...
+User:  notepad
+Say something...
+Analyzing...
+User:  open calculator
+Say something...
+Analyzing...
+User:  set as open the calculator open Notepad
+Say something...
+Analyzing...
+User:  open Google
+Say something...
+Analyzing...
+User:  this is how it is opening by
+Say something...
+Analyzing...
+User:  bye Amigo
+Goodbye, Nidhi. Have a great day.
+
+## Libraries installed
 * pyttsx3
 * SpeechRecognition
 * pyaudio
