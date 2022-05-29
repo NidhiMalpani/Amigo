@@ -50,4 +50,7 @@ Here, the bot would play music according to the emotion you have, so you would g
 * tensorflow
 * deepface
 * tkinter
+* pillow
+* pyautogui
+* numpy
 
