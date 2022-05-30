@@ -42,7 +42,7 @@ Here, the bot would play music according to the emotion you have, so you would g
 ![image](https://user-images.githubusercontent.com/88290216/171031018-61058de1-91e4-4917-8ea9-8770c03d32bc.png)
 (shown: playing music according to the mood "happy")
 <br />
-Additionally, all the details of the command-execution conversation is dynamically displayed as "logs" in the console of your IDE (VS Code in my case).
+Additionally, all the details of the command-execution conversation is dynamically displayed as "logs" in the console.
 <br />One instance of the console:<br />
 <br />Collecting samples. Please face the camera...
 <br />Samples collected successfully.
