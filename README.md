@@ -36,9 +36,11 @@ Amigo is a voice based service itself, with an additional feature of having faci
 &nbsp; <br />e. Search something on wikipedia
 &nbsp; <br />f. Open Google
 &nbsp; <br />g. Open Youtube
-&nbsp; <br />h. Play music, etc
+&nbsp; <br />h. Play music, etc <-- (this functionality was accidentally not presented in the video, try it out by saying "play music")
 
 Here, the bot would play music according to the emotion you have, so you would get a different playlist for each mood the program recognises you in.
+![image](https://user-images.githubusercontent.com/88290216/171031018-61058de1-91e4-4917-8ea9-8770c03d32bc.png)
+(shown: playing music according to the mood "happy")
 <br />
 Additionally, all the details of the command-execution conversation is dynamically displayed as "logs" in the console of your IDE (VS Code in my case).
 <br />One instance of the console:<br />
@@ -70,7 +72,7 @@ Additionally, all the details of the command-execution conversation is dynamical
 <br />User:  open Google
 <br />Say something...
 <br />Analyzing...
-<br />User:  this is how it is opening by
+<br />User:  play music
 <br />Say something...
 <br />Analyzing...
 <br />User:  bye Amigo
